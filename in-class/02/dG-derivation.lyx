@@ -1,0 +1,320 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{braket}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Subsubsection*
+Free Energy, Enthalpy, and Entropy ...
+ Oh My!
+\end_layout
+
+\begin_layout Standard
+You've probably seen this equation:
+\begin_inset Formula 
+\[
+\Delta G^{\circ}=\Delta H^{\circ}-T\Delta S^{\circ}
+\]
+
+\end_inset
+
+But what does this even mean? And where does it come from? This is an intuitive
+ derivation of this equation.
+ We're going to analyze the equilibrium between a protein that can be unfolded
+ or folded:
+\begin_inset Formula 
+\[
+U\rightleftarrows F
+\]
+
+\end_inset
+
+We will find that:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Delta G^{\circ}$
+\end_inset
+
+ (free energy) measures the relative probability the protein is folded vs.
+ unfolded.
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Delta H^{\circ}$
+\end_inset
+
+ (enthalpy) measures the differences in the bonds formed in the folded and
+ unfolded states.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Delta S^{\circ}$
+\end_inset
+
+ (entropy) measures the difference in the number of microstates between
+ the unfolded and folded state.
+\end_layout
+
+\begin_layout Subsubsection*
+Derivation
+\end_layout
+
+\begin_layout Standard
+Because each protein molecule is buffeted by solvent molecules, it will
+ flip between a whole collection of slightly different structures over time.
+ These individual structures form an 
+\emph on
+ensemble
+\emph default
+ of 
+\emph on
+microstates
+\emph default
+.
+ Some microstates will be favored over others because they have more favorable
+ bonds and/or fewer unfavorable clashes.
+ The probability of a microstate 
+\begin_inset Formula $m$
+\end_inset
+
+ is given by:
+\begin_inset Formula 
+\[
+P_{m}=\frac{w_{m}}{\sum_{i=1}^{N}w_{i}}=\frac{w_{m}}{Q}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $w$
+\end_inset
+
+ is the weight on each microstate—measuring things like bond favorability—and
+ 
+\begin_inset Formula $Q$
+\end_inset
+
+ is the sum of the weights of all microstates.
+ 
+\end_layout
+
+\begin_layout Standard
+Some of these microstates will be folded, others will be unfolded.
+ The probability of the folded state is given by:
+\begin_inset Formula 
+\[
+P_{F}=\frac{\sum_{i=1}^{N_{F}}w_{i}}{Q}
+\]
+
+\end_inset
+
+where where the sum on the top is the sum of the weights of all microstates
+ that are folded.
+ If we assume the weights follow a normal distribution, we can replace that
+ sum with the following:
+\begin_inset Formula 
+\[
+P_{F}=\frac{N_{F}\left\langle w_{F}\right\rangle }{Q}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $N_{F}$
+\end_inset
+
+ is the number of microstates in the folded state and 
+\begin_inset Formula $\left\langle w_{F}\right\rangle $
+\end_inset
+
+ is the average weight of the microstates in the folded state.
+ We could write a similar equation for 
+\begin_inset Formula $P_{U}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+One important question is the relative probability of finding a protein
+ molecule folded or unfolded.
+ We can capture this by taking the ratio of 
+\begin_inset Formula $P_{F}$
+\end_inset
+
+ and 
+\begin_inset Formula $P_{U}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{P_{F}}{P_{U}}=\frac{N_{F}\left\langle w_{F}\right\rangle /Q}{N_{U}\left\langle w_{U}\right\rangle /Q}=\frac{N_{F}\left\langle w_{F}\right\rangle }{N_{U}\left\langle w_{U}\right\rangle }
+\]
+
+\end_inset
+
+Now let's do some algebra.
+ Take the log of both sides:
+\begin_inset Formula 
+\[
+ln\left(\frac{P_{F}}{P_{U}}\right)=ln\left(\frac{N_{F}\left\langle w_{F}\right\rangle }{N_{U}\left\langle w_{U}\right\rangle }\right)
+\]
+
+\end_inset
+
+Use the log rule 
+\begin_inset Formula $log(a\cdot b)=log(a)+log(b):$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+ln\left(\frac{P_{F}}{P_{U}}\right)=ln\left(\frac{N_{F}}{N_{U}}\right)+ln\left(\frac{\left\langle w_{F}\right\rangle }{\left\langle w_{U}\right\rangle }\right)
+\]
+
+\end_inset
+
+Multiply by 
+\begin_inset Formula $-RT$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+-RTln\left(\frac{P_{F}}{P_{U}}\right)=-RTln\left(\frac{N_{F}}{N_{U}}\right)+-RTln\left(\frac{\left\langle w_{F}\right\rangle }{\left\langle w_{U}\right\rangle }\right)
+\]
+
+\end_inset
+
+Make some definitions:
+\begin_inset Formula 
+\[
+\Delta G^{\circ}\equiv-RTln\left(\frac{P_{F}}{P_{U}}\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Delta S^{\circ}\equiv Rln\left(\frac{N_{F}}{N_{U}}\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Delta H^{\circ}\equiv-RTln\left(\frac{\left\langle w_{F}\right\rangle }{\left\langle w_{U}\right\rangle }\right)
+\]
+
+\end_inset
+
+and you obtain the familiar:
+\begin_inset Formula 
+\[
+\Delta G^{\circ}=\Delta H^{\circ}-T\Delta S^{\circ}
+\]
+
+\end_inset
+
+But now we can see the origins of these terms.
+ 
+\begin_inset Formula $\Delta G^{\circ}$
+\end_inset
+
+ measures the relative probabilities of the two states, 
+\begin_inset Formula $\Delta H^{\circ}$
+\end_inset
+
+ measures the difference in the average weights (bonds, etc.) between states,
+ and 
+\begin_inset Formula $\Delta S^{\circ}$
+\end_inset
+
+ measures the difference in the number of states.
+ 
+\end_layout
+
+\end_body
+\end_document
