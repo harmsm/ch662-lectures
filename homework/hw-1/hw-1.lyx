@@ -1,0 +1,626 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass paper
+\begin_preamble
+\usepackage{adjustbox}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Homework 1: Protein Structure and Energetics
+\end_layout
+
+\begin_layout Enumerate
+What do changes in free energy, enthalpy, and entropy measure?
+\end_layout
+
+\begin_layout Enumerate
+You are studying a protein that favors the folded state by 
+\begin_inset Formula $-32.3\ kJ\cdot mol^{-1}$
+\end_inset
+
+.
+ You introduce a mutation that makes a new ion pair worth 
+\begin_inset Formula $-11\ kJ\cdot mol^{-1}$
+\end_inset
+
+ formed only in the unfolded state.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What fraction of protein molecules are in the folded state for the wildtype
+ protein?
+\end_layout
+
+\begin_layout Enumerate
+What fraction of the protein molecules are in the folded state for the mutant
+ protein?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+A protein with 50 amino acids has 98 rotatable bonds in its backbone.
+ To a first approximation, each bond can populate one of three configurations:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{adjustbox}{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename steric-clash.png
+	lyxscale 30
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{adjustbox}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+The folded state is one unique combination of bond configurations; the unfolded
+ state consists of all other combinations.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Given our definition of entropy from class, estimate the change in entropy
+ for the folding of the protein backbone.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Do you think the assumptions above lead to an overestimate or understimate
+ of the entropy change? (Why or why not?)
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+One interesting observation is that most proteins are 
+\shape italic
+marginally stable
+\shape default
+, meaning that their total stabilities are small, despite being the sum
+ of large favorable and large unfavorable terms.
+ On average, protein stabilities are about the same as 1-2 hydrogen bonds.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+If there are 5,000 proteins in a cell, how many molecules of a protein are
+ unfolded if it has a stability of:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+-10 kJ/mol?
+\end_layout
+
+\begin_layout Enumerate
+-20 kJ/mol?
+\end_layout
+
+\begin_layout Enumerate
+-30 kJ/mol?
+\end_layout
+
+\begin_layout Enumerate
+-40 kJ/mol?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Why do you think organisms don't always evolve sequences that increase the
+ stability of their proteins?
+\end_layout
+
+\begin_layout Enumerate
+Can evolution 
+\begin_inset Quotes eld
+\end_inset
+
+see
+\begin_inset Quotes erd
+\end_inset
+
+ the difference between a stability of -20 kJ/mol and -30 kJ/mol for this
+ protein? -30 kJ/mol and -40 kJ/mol? Does this change your answer in (b)?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+You introduce an glycine to alanine mutation into a protein and find that
+ it strongly stabilizes the folded state.
+ You solve the crystal structure of both the wildtype and mutant protein
+ and find their structures are essentially identical.
+ How might this mutation be having its effect? 
+\end_layout
+
+\begin_layout Enumerate
+Consider the pentapeptide 
+\begin_inset Quotes eld
+\end_inset
+
+DFPHR
+\begin_inset Quotes erd
+\end_inset
+
+: 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Draw the peptide (including termini) with each titratable group in its most
+ likely protonation state at 
+\begin_inset Formula $pH\ 7.5$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+On the structure you drew, use an arrow to indicate which peptide bond is
+ most likely to exist in the cis configuration.
+ Explain why.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Open up 
+\begin_inset Quotes eld
+\end_inset
+
+alpha-helix.pse
+\begin_inset Quotes erd
+\end_inset
+
+ in PyMol.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Rotate the 
+\begin_inset Formula $\alpha$
+\end_inset
+
+-helix around.
+ To orient yourself:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Find the N-terminus.
+\end_layout
+
+\begin_layout Enumerate
+Identify a single peptide bond.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Click 
+\begin_inset Quotes eld
+\end_inset
+
+
+\begin_inset Formula $A\rightarrow find\rightarrow polar\ contacts\rightarrow within\ selection$
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+.
+ This should create a set of yellow-dashed lines between hydrogen bond donors
+ and acceptors.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What atoms act as the primary hydrogen bond donors? What atoms act as acceptors?
+ 
+\end_layout
+
+\begin_layout Enumerate
+How far away are the donors and acceptors of each hydrogen bond in primary
+ structure? Put another way: how far apart in sequence are the interacting
+ amino acids? (Is this fixed across the piece of secondary structure)?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+What is the orientation of the sidechains relative to the piece of secondary
+ structure:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+viewed lengthwise?
+\end_layout
+
+\begin_layout Enumerate
+viewed looking down the helix from the N-terminus?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Helices have the sequence pattern 
+\begin_inset Formula $xHHxxHxxHHx$
+\end_inset
+
+, where 
+\begin_inset Formula $H$
+\end_inset
+
+ are hydrophobic residues and 
+\begin_inset Formula $x$
+\end_inset
+
+ are polar/charged residues.
+ What is significant about this pattern, given the structure of helices?
+ 
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Open up 
+\begin_inset Quotes eld
+\end_inset
+
+beta-sheet.pse
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Reduced sidechains are shown as large rainbow-colored atoms.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Rotate the 
+\begin_inset Formula $\beta$
+\end_inset
+
+-sheet around.
+ To orient yourself:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Find the N-terminus.
+\end_layout
+
+\begin_layout Enumerate
+Identify a single peptide bond.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Click 
+\begin_inset Quotes eld
+\end_inset
+
+
+\begin_inset Formula $A\rightarrow find\rightarrow polar\ contacts\rightarrow within\ selection$
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+.
+ This should create a set of yellow-dashed lines between hydrogen bond donors
+ and acceptors.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What atoms act as the primary hydrogen bond donors? What atoms act as acceptors?
+ 
+\end_layout
+
+\begin_layout Enumerate
+How far away are the donors and acceptors of each hydrogen bond in primary
+ structure? Put another way: how far apart in sequence are the interacting
+ amino acids? (Is this fixed across the piece of secondary structure)?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+What is the orientation of the sidechains relative to the piece of secondary
+ structure:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+viewed lengthwise?
+\end_layout
+
+\begin_layout Enumerate
+viewed looking down the sheet from the N-terminus?
+\end_layout
+
+\begin_layout Enumerate
+Many 
+\begin_inset Formula $\beta$
+\end_inset
+
+-sheets form interaction surfaces that interact specifically with other
+ large proteins.
+ How might the orientations of these sidechains facilitate recognition?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Click 
+\begin_inset Formula $S\rightarrow cartoon$
+\end_inset
+
+.
+ Is this a 
+\emph on
+parallel
+\emph default
+ or 
+\emph on
+anti-parallel
+\emph default
+ 
+\begin_inset Formula $\beta$
+\end_inset
+
+-sheet?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Peptide analogs known as “peptoids” have been developed to overcome some
+ of the problems with peptide-based drugs (e.g.
+ protease sensitivity).
+ Peptoids are N-substituted amino acids (see figure).
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{adjustbox}{center}
+\backslash
+renewcommand*
+\backslash
+arraystretch{2.0}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename peptoid.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{adjustbox}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Would you expect a peptoid to be more or less flexible (i.e.
+ have more available conformations) compared to a peptide with the same
+ sequence? Please justify your answer.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Do you expect peptoids to form 
+\begin_inset Formula $\alpha$
+\end_inset
+
+-helices? Explain why or why not.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+We're going to consider the structural and energetic effects of mutations
+ to the protein lysozyme.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Which residues are within 
+\begin_inset Formula $3\ \mbox{\normalfontÅ}$
+\end_inset
+
+ of the residues I23, V74, and V121 in the wildtype structure (2BQA)? 
+\end_layout
+
+\begin_layout Enumerate
+The PDB files 2BQC, 2BQM, and 2BQI contain the structures for lysozyme with
+ the mutations I23V, V74A, and V121A, respectively.
+ Describe how the lysozyme structure responded to each mutation by comparing
+ each mutant structure to the wild-type structure.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Based on your analysis, is protein structure sensitive or insensitive to
+ sequence? 
+\end_layout
+
+\begin_layout Enumerate
+The PyMol command “get_area selection” calculates the surface area of the
+ given selection.
+ Use this command to find the surface area of the I23, V74, and V121 sidechains
+ in the wildtype structure.
+ 
+\end_layout
+
+\begin_layout Enumerate
+The I23V, V74A, and V121A mutations destabilize the protein (i.e.
+ increase 
+\begin_inset Formula $\Delta G^{\circ}$
+\end_inset
+
+ folding) by 
+\begin_inset Formula $1.72$
+\end_inset
+
+, 
+\begin_inset Formula $1.80$
+\end_inset
+
+, and 
+\begin_inset Formula $7.28\ kJ\cdot mol^{-1}$
+\end_inset
+
+, respectively.
+ Give a structural explanation for their different effects on 
+\begin_inset Formula $\Delta G^{\circ}$
+\end_inset
+
+ folding.
+\end_layout
+
+\end_deeper
+\end_body
+\end_document
