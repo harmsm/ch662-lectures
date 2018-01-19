@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+        <!-- CUSTOMIZE METADATA HERE -->
+		<title>Presentation</title>
+		<meta name="description" content="CH662 Lecture 6">
+		<meta name="author" content="Michael J. Harms">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="presentation-data/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+        <!-- CUSTOMIZE STYLESHEET HERE -->
+		<link rel="stylesheet" href="presentation-data/css/override.css">
+	</head>
+
+	<body>
+
+        <!-- CUSTOMIZE SLIDES HERE -->
+		<div class="reveal">
+			<!-- Any section element inside of this container is a slide -->
+			<div class="slides">
+
+                <section>
+                    <h4>Nucleic Acid Structure</h4>
+                </section>
+
+                <section>
+                    <h4>DNA was first macromolecular structure solved</h4>
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <img class="img-responsive" src="presentation-data/06/franklin-dna.jpg" />
+                        </div>
+                        <div class="col-xs-6">
+                            <img class="img-responsive" src="presentation-data/06/diffraction-to-dna.jpg" />
+                        </div>
+                    </div>
+
+                    <small><a href="http://dnaandsocialresponsibility.blogspot.com/2011/03/short-and-simple-ish-guide-to-x-ray.html">King's College London Archive Project</a></small>
+                </section>
+   
+                <section>
+                    <h4>Part of a protein diffraction pattern</h4>
+                    <img src="presentation-data/06/protein-diffraction.jpg" height="60%" width="60%" />
+                    <br />
+                    <small><a href="https://biocars.uchicago.edu/page/biology-time-resolved-crystallography">BioCARS, U Chicago</a></small>
+                </section>
+ 
+                <section>
+                    <h4>Proteins</h4>
+                    <ul>
+                        <li class="fragment">20 amino acids ($20^{L}$) leads to <em>vast</em> set of possible sequences.</li>
+                        <li class="fragment">Have two degrees of backbone freedom ($\Phi$ and $\Psi$).</li>
+                        <li class="fragment">5(ish) pieces of secondary structure ($\alpha$-helix, $\beta$-sheet, $\pi$-helix, loop, turn)</li>
+                        <li class="fragment">Folds heirarchically, giving $\approx 1000$ folds</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4>Nucleic acids</h4>
+                    <ul>
+                        <li class="fragment">4 bases ($4^{L}$) leads to slightly less vast set of possible sequences.</li>
+                        <li class="fragment">Have <em>12</em> degrees of backbone freedom ($\alpha$,$\beta$,$\gamma$,$\delta$,$\varepsilon$,$\eta$,$\chi$,$\nu_{0}$,$\nu_{1}$,$\nu_{2}$,$\nu_{3}$,$\nu_{4}$)</li>
+                        <li class="fragment">Bunch of low-order structures: B-form, A-form, Z-form, H-form helices; cruciforms; bubbles, hairpins</li>
+                        <li class="fragment">Also folds heirarchically, giving who-knows-how-many folds</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4>Nucleic Acids</h4>
+                    <img src="presentation-data/06/curtis_fig-1.35.jpg" height="60%" width="60%" />
+                    <br/>
+                    <small>Curtis, Johnson, Ho. Fig 1.35</small>    
+                </section>
+    
+                <section>
+                    <h4>Ridiculous numbers of bonds that can rotate</h4>
+                    <img src="presentation-data/06/curtis_fig-1.36.jpg" height="60%" width="60%" />
+                    <br/>
+                    <small>Curtis, Johnson, Ho. Fig 1.36</small>    
+                </section>
+
+                <section>
+                    <h4>Sugar can "pucker"</h4>
+                    <img src="presentation-data/06/curtis_fig-1.37.jpg" height="60%" width="60%" />
+                    <br/>
+                    <small>Curtis, Johnson, Ho. Fig 1.37</small>    
+                </section>
+
+                <section>
+                    <h4>Bases form standard "Watson-Crick" hydrogen bonds</h4>
+                    <img src="presentation-data/06/curtis_fig-1.38.jpg" height="60%" width="60%" />
+                    <br/>
+                    <small>Curtis, Johnson, Ho. Fig 1.38</small>    
+                </section>
+
+                <section>
+                    <h4>But many other hydrogen bond patterns form</h4>
+                    <img src="presentation-data/06/curtis_fig-3.18.jpg" height="60%" width="60%" />
+                    <br/>
+                    <small>Curtis, Johnson, Ho. Fig 3.18</small>    
+                </section>
+
+                <section>
+                    <h4>Base pairs orient in different ways relative to axis of strand</h4>
+                    <img src="presentation-data/06/curtis_fig-1.39.jpg" height="60%" width="60%" />
+                    <br/>
+                    <small>Curtis, Johnson, Ho. Fig 1.39</small>    
+                </section>   
+
+                <section>
+                    <h4>There are three basic classes of nucleic acid helix: A, B, and Z</h4>
+                    <img src="presentation-data/06/abz-dna.png" height="45%" width="45%" />
+                    <br/>
+                    <small><a href="https://en.wikipedia.org/wiki/A-DNA#/media/File:Dnaconformations.png">mauroesguerroto, CC BY-SA 4.0, wikimedia.org</a></small>
+                </section> 
+    
+                <section>
+                    <h4>What stabilizes a given nucleic acid structure?</h4>
+                    <ul class="fragment">
+                        <li>Hydrogen bonds</li>
+                        <li>Base stacking</li>
+                        <li>Electrostatics</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4>Hydrogen bonding</h4>
+                    <p>G-C: $-10\ kJ\cdot mol^{-1}$</p>
+                    <p>A-T: $-1\ kJ\cdot mol^{-1}$</p>
+                    <small>Curtis, Johnson, Ho. p. 122</small>
+                </section>                  
+
+                <section>
+                    <h4>Base stacking</h4>
+                    <img src="presentation-data/06/curtis_table-3.10.jpg" height="60%" width="60%" />
+                    <br/>
+                    <small>Curtis, Johnson, Ho. Table 3.10</small>    
+                </section>
+
+                <section>
+                    <h4>Electrostatics</h4>
+                    <ul>
+                        <li>Positive ions offset negative charge on backbone</li>
+                        <li>Divalent ions (particularly magnesium) often play structural roles</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4>Higher-ordered stuff</h4>
+                    <ul>
+                        <li>Compact structures</li>
+                        <li>Super long DNA</li>
+                        <li>DNA origami</li>
+                    </ul> 
+                </section>
+  
+                <section>
+                    <p>Roadkill diagrams show secondary structure</p>
+                    <img src="presentation-data/06/splat.png" height="50%" width="50%"/> 
+                    <br/>
+                    <small><a href="https://en.wikipedia.org/wiki/Transfer_RNA">wikimedia.org</a></small>
+                </section> 
+
+                <section>
+                    <p>Stem-loop (a.k.a. hairpin)</p>
+                    <img src="presentation-data/06/stem-loop.png" height="80%" width="80%" />
+                    <br/>
+                    <small><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Stem-loop.svg/1000px-Stem-loop.svg.png">wikimedia.org</a></small>
+
+                </section>
+
+                <section>
+                    <p>G-quadraplex</p>
+                    <img src="presentation-data/06/quadraplex.png" height="80%" width="80%" />
+                    <br/>
+                    <small><a href="https://en.wikipedia.org/wiki/G-quadruplex">wikimedia.org</a></small>
+                </section>
+
+
+                <section>
+                    <p>Flipping between secondary structures allows regulation</p>
+                    <img src="presentation-data/06/quadraplex_regulation.jpg" height="80%" width="80%" />
+                    <br/>
+                    <small><a href="https://en.wikipedia.org/wiki/G-quadruplex">wikimedia.org</a></small>
+                </section>
+
+                <section>
+                    <p>Holliday junctions occur in recombination</p>
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <img class="img-responsive" src="presentation-data/06/holliday-junction.png" />
+                        </div>
+                        <div class="col-xs-6">
+                            <img class="img-responsive" src="presentation-data/06/holliday-junction_structure.png" />
+                        </div>
+                    </div>
+
+                    <small><a href="https://en.wikipedia.org/wiki/Holliday_junction">wikimedia.org</a></small>
+                </section>
+
+                <section>
+                    <p>Secondary structure can assemble into tertiary structure</p> 
+                    <img src="presentation-data/06/splat.png" height="50%" width="50%"/> 
+                    <br/>
+                    <small><a href="https://en.wikipedia.org/wiki/Transfer_RNA">wikimedia.org</a></small>
+                </section> 
+
+                <section>
+                    <p>Secondary structure can assemble into tertiary structure</p> 
+                    <img src="presentation-data/06/trna.png" height="50%" width="50%"/> 
+                    <br/>
+                    <small><a href="https://en.wikipedia.org/wiki/Transfer_RNA">wikimedia.org</a></small>
+                </section> 
+
+                <section>
+                    <p>Ribozymes: catalytically active RNA molecules</p>
+                    <img src="presentation-data/06/ribozyme.png" height="90%" width="90%"/> 
+                    <br/>
+                    <small><a href="https://commons.wikimedia.org/w/index.php?curid=37125886">wikimedia.org</a></small>
+                </section> 
+
+                <section>
+                    <h4>Super long DNA: Chromatin</h4>
+                    <img src="https://micro.magnet.fsu.edu/cells/nucleus/images/chromatinstructurefigure1.jpg" height="150%" width="150%"/>
+                    <br/>
+                    <small><a href="https://micro.magnet.fsu.edu/cells/nucleus/chromatin.html">micro.magnet.fsu.edu</a></small>
+                </section>
+ 
+                <section>
+                    <h4>Super long DNA: NETosis</h4>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/oimU652RB1w?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </section>
+ 
+                <section>
+                    <h4>Super long DNA: Supercoiling</h4>
+                    <img src="http://www.bioinfo.org.cn/book/biochemistry/chapt23/805-1.jpg" />
+                    <br/>
+                    <small>bioinfo.org.cn</small>
+                </section>                    
+ 
+                <section>
+                    <h4>Super long DNA: Persistence length</h4>
+                    <p>Measures how far you have to go until bending at one spot is not correlated with bending at another</p>
+                    <ul>
+                        <li class="fragment">Cooked spaghetti: a few cm</li>
+                        <li class="fragment"><a href="http://www.sciencedirect.com/science/article/pii/S1350630704000123?via%3Dihub">Dry spaghetti: $10^{18}\ m$</a></li>
+                        <li class="fragment">DNA: $\approx 150\ bp$ ($~\approx 50 \ nm$)</li>
+                    </ul>
+                    <p class="fragment">Gives a rough estimate of how far along DNA two things can interact without binding to each other</p>
+                </section>                    
+
+                <section>
+                    <h4>Engineers are good at engineering DNA!</h4>
+                    <img src="presentation-data/06/dna-origami.png" height="50%" width="50%"/>
+                    <br/>
+                    <small><a href="http://pubs.acs.org/doi/pdf/10.1021/acs.chemrev.6b00825">Hong et al. (2017) <em>Chemi Rev</em> 117:12584</a></small>
+                </section>
+
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+            var USE_LOCAL = false;
+
+            if (USE_LOCAL) {
+                var mathjax_location = 'MathJax-master/MathJax.js';
+                var jquery_location = 'presentation-data/js/jquery-2.1.4.min.js';
+                var bootstrap_location = 'presentation-data/js/bootstrap.min.js';
+                var d3_location = 'presentation-data/js/d3.min.js';
+            } else {
+                var mathjax_location = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js';
+                var jquery_location = 'https://code.jquery.com/jquery-2.1.4.min.js';
+                var bootstrap_location = 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js';
+                var d3_location = 'https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js';
+            }
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+                // Add math, using local mathjax
+                math: {
+                    mathjax: mathjax_location,
+                    config: 'TeX-AMS_HTML-full'  // See http://docs.mathjax.org/en/latest/config-files.html
+                },
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true },
+                    { src: 'plugin/math/math.js', async: true },    // mathjax
+                    { src: jquery_location } ,
+                    { src: bootstrap_location } ,
+                    { src: d3_location } ,
+                    { src: 'presentation-data/js/test-stream.js'}
+				]
+			});
+
+
+
+		</script>
+
+	</body>
+</html>
