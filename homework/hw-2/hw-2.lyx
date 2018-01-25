@@ -1,0 +1,1160 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass paper
+\begin_preamble
+\usepackage{adjustbox}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Subsection*
+Homework 2
+\end_layout
+
+\begin_layout Enumerate
+In a sentence, how does the hydrophobic effect stabilize protein structures?
+\end_layout
+
+\begin_layout Enumerate
+Why are the ionic interactions in macromolecules generally much weaker than
+ ionic interactions in something like a salt crystal? 
+\end_layout
+
+\begin_layout Enumerate
+How does ion release lead to affinity between a positively charged protein
+ and DNA?
+\end_layout
+
+\begin_layout Enumerate
+How do unfulfilled interactions lead to binding specificity for proteins
+ that bind DNA?
+\end_layout
+
+\begin_layout Enumerate
+HIV protease is an enzyme required for HIV maturation.
+ It recognizes specific sequences of amino acids and then cleaves peptide
+ bonds, yielding the final protein components of a mature viron.
+ It has also been an important HIV drug target.
+ One early drug was Ritonavir.
+ This is a peptide mimic that binds at the enzyme active site and thus blocks
+ the ability of the enzyme to bind to peptide targets.
+ Unfortunately, HIV has acquired resistance to this drug by acquiring mutations
+ in the active site.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Load the structure of the protease-drug complex (1HXW) in PyMol.
+ 
+\end_layout
+
+\begin_layout Enumerate
+What is the distance between Val-82 and the drug? Does Val-82 interact physicall
+y with the drug? If so, what sort of interaction is formed? Is it favorable?
+\end_layout
+
+\begin_layout Enumerate
+One of the first mutations that occurred to HIV protease to evolve resistance
+ to ritonavir was V82A.
+ Introduce this mutation into the structure.
+ What happened to the interaction you observed above?
+\end_layout
+
+\begin_layout Enumerate
+Other mutations might conceivably have occurred besides V82A.
+ Use the mutagenesis tool to introduce the V82W mutation.
+ After you select TRP, but before you hit 
+\begin_inset Quotes eld
+\end_inset
+
+apply,
+\begin_inset Quotes erd
+\end_inset
+
+ use your arrow keys to sample different possible conformations for tryptophan-8
+2.
+ Is this a feasible mutation for HIV protease to evolve? Why or why not?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Phosphorylation is a key method of protein regulation.
+ A class of enzymes called 
+\emph on
+kinases
+\emph default
+ can pull a phosphate group (
+\begin_inset Formula $PO_{4}^{-}$
+\end_inset
+
+, often abbreviated to 
+\begin_inset Formula $P$
+\end_inset
+
+) from 
+\begin_inset Formula $ATP$
+\end_inset
+
+ and link it to a specific amino acid on a specific protein.
+ This change in the chemistry of a protein can, in turn, modulate its function.
+ A general phosphorylation reaction is something like:
+\begin_inset Formula 
+\[
+protein+ATP\rightleftharpoons protein-P+ADP
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Write out an equation for the 
+\begin_inset Formula $\Delta G$
+\end_inset
+
+ of this reaction as a function of the concentrations of all of the species.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\Delta G^{\circ}$
+\end_inset
+
+ for this reaction is 
+\begin_inset Formula $-20\ kJ\cdot mol^{-1}$
+\end_inset
+
+.
+ If all species are at 
+\begin_inset Formula $1\ M$
+\end_inset
+
+ (at 
+\begin_inset Formula $300\ K$
+\end_inset
+
+), what is the 
+\begin_inset Formula $\Delta G$
+\end_inset
+
+ for the reaction? Which direction is favored?
+\end_layout
+
+\begin_layout Enumerate
+Let's drop to more biologically reasonable concentrations.
+ Given the table below, what is the 
+\begin_inset Formula $\Delta G$
+\end_inset
+
+ to phosphorylate the protein? 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{adjustbox}{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+species
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+concentration
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $protein$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1\ nM$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $protein-P$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1\ fM$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $ATP$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3\ mM$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $ADP$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.3\ mM$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{adjustbox}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $[ATP]$
+\end_inset
+
+ and 
+\begin_inset Formula $[ADP]$
+\end_inset
+
+ are held roughly constant in normal cells.
+ If 
+\begin_inset Formula $[ATP]$
+\end_inset
+
+ and 
+\begin_inset Formula $[ADP]$
+\end_inset
+
+ are held constant at the concentrations above, what is the ratio of 
+\begin_inset Formula $\frac{protein-P}{protein}$
+\end_inset
+
+ at equilibrium (again, 
+\begin_inset Formula $300\ K$
+\end_inset
+
+)?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Protein kinases must recognize a specific protein substrate that they will
+ then phosphorylate.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+1ATP is a structure of a kinase bound to its substrate.
+ Look at the structure and determine which residues from the substrate are
+ important for specific recognition.
+ Use the nomenclature 
+\begin_inset Formula $P_{i}$
+\end_inset
+
+ where 
+\begin_inset Formula $i$
+\end_inset
+
+ is the position relative to the phosphorylated residue (e.g.
+ 
+\begin_inset Formula $P_{i-1}$
+\end_inset
+
+ is the residue directly N-terminal to the phosphorylated residue, while
+ 
+\begin_inset Formula $P_{i+1}$
+\end_inset
+
+ is the residue directly C-terminal to the phosphorylated residue).
+ 
+\end_layout
+
+\begin_layout Enumerate
+The structure in 1ATP does not actually lead to lead to phosphorylated substrate.
+ Why, structurally, might this be? 
+\end_layout
+
+\begin_layout Enumerate
+An inactive kinase is found in the 1IRK PDB file.
+ Describe conformational differences between an active and inactive kinase
+ that may be important for determining activity.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Calculate 
+\begin_inset Formula $\Delta G^{\circ}$
+\end_inset
+
+ for the protonation of the aspartic acid side chain for a solution with
+ a total amino acid concentration of 
+\begin_inset Formula $1\ mM$
+\end_inset
+
+ at 
+\begin_inset Formula $25\ ^{\circ}C$
+\end_inset
+
+ and 
+\begin_inset Formula $pH\ 7$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+You have a protein that binds to ligands that look like those shown below.
+ You find that 
+\begin_inset Formula $A$
+\end_inset
+
+ binds with the same 
+\begin_inset Formula $K_{D}$
+\end_inset
+
+ as 
+\begin_inset Formula $B$
+\end_inset
+
+, but that both bind more tightly than 
+\begin_inset Formula $C$
+\end_inset
+
+.
+ You are interested in figuring out the molecular basis for this recognition,
+ so you start changing amino acids in the binding pocket and re-measuring
+ binding.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{adjustbox}{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename binding-ligands.png
+	lyxscale 34
+	scale 25
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{adjustbox}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+You change an Ala to a Leu in the binding pocket and find that it improves
+ the binding of 
+\begin_inset Formula $A$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What part of the small molecule do you think this amino acid touches?
+\end_layout
+
+\begin_layout Enumerate
+What effect would you predict for ligands 
+\begin_inset Formula $B$
+\end_inset
+
+ and 
+\begin_inset Formula $C$
+\end_inset
+
+? Why?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+You change a different site from a Ser to Thr, and find that it also improves
+ the binding of 
+\begin_inset Formula $A$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What part of the small molecule do you think this amino acid touches?
+\end_layout
+
+\begin_layout Enumerate
+What effect would you predict for ligands 
+\begin_inset Formula $B$
+\end_inset
+
+ and 
+\begin_inset Formula $C$
+\end_inset
+
+? Why?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+You identify a new ligand, 
+\begin_inset Formula $D$
+\end_inset
+
+, and measure its binding.
+ You find that it binds poorly.
+ What sort of recognition 
+\begin_inset Quotes eld
+\end_inset
+
+rule
+\begin_inset Quotes erd
+\end_inset
+
+ do you think the protein is using to recognize 
+\begin_inset Formula $A$
+\end_inset
+
+ and 
+\begin_inset Formula $B$
+\end_inset
+
+? 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Now, we'll consider the contributions of the hydrophobic effect and hydrogen
+ bonds to the binding free energy (
+\begin_inset Formula $\Delta G_{bind}$
+\end_inset
+
+) for ligand 
+\begin_inset Formula $B$
+\end_inset
+
+ and ligand 
+\begin_inset Formula $C$
+\end_inset
+
+.
+ Use the information in the problem to populate the table below.
+ Assume that 
+\begin_inset Formula $\Delta G_{Hbond}=-20\ kJ/mol$
+\end_inset
+
+ and 
+\begin_inset Formula $T=300\ K$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{adjustbox}{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand*
+\backslash
+arraystretch{2.0}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ligand 
+\begin_inset Formula $B$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ligand 
+\begin_inset Formula $C$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Delta G_{H2O\ release}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Delta G_{Hbond}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Delta G_{H2O\ release}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Delta G_{Hbond}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ligand
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+pocket
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{adjustbox}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+First, consider hydrophobic effect:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Burying the hydrophobic portion of both 
+\begin_inset Formula $B$
+\end_inset
+
+ and 
+\begin_inset Formula $C$
+\end_inset
+
+ in the protein increases the entropy of the system by 
+\begin_inset Formula $0.06\;kJ/mol/K$
+\end_inset
+
+.
+ What is their contribution to 
+\begin_inset Formula $\Delta G_{bind}$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+The hydrophobic pocket on the protein that binds these ligands sequesters
+ water molecules away from 
+\begin_inset Quotes eld
+\end_inset
+
+bulk
+\begin_inset Quotes erd
+\end_inset
+
+ solvent.
+ Release of these waters on ligand binding increases entropy by 
+\begin_inset Formula $0.12\;kJ/mol/K$
+\end_inset
+
+.
+ What is their contribution to 
+\begin_inset Formula $\Delta G_{bind}$
+\end_inset
+
+?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Next, consider the hydrogen bonds for ligand 
+\begin_inset Formula $B$
+\end_inset
+
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Formula $B$
+\end_inset
+
+ is able to form 
+\begin_inset Formula $2$
+\end_inset
+
+ hydrogen bonds to water when free in solution and 
+\begin_inset Formula $2$
+\end_inset
+
+ to the protein in the binding pocket.
+ To a first approximation, what are the contributions of these hydrogen
+ bonds to the 
+\begin_inset Formula $\Delta G$
+\end_inset
+
+ of binding?
+\end_layout
+
+\begin_layout Enumerate
+The pocket contains polar groups that form 
+\begin_inset Formula $2$
+\end_inset
+
+ hydrogen bonds to water in the absence of 
+\begin_inset Formula $B$
+\end_inset
+
+ and 
+\begin_inset Formula $2$
+\end_inset
+
+ hydrogen bonds to 
+\begin_inset Formula $B$
+\end_inset
+
+ when it's bound.
+ To a first approximation, what are the contributions of these hydrogen
+ bonds to the 
+\begin_inset Formula $\Delta G$
+\end_inset
+
+ of ligand binding?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Next, consider the hydrogen bonds for ligand 
+\begin_inset Formula $C$
+\end_inset
+
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Formula $C$
+\end_inset
+
+ is able to form 
+\begin_inset Formula $0$
+\end_inset
+
+ hydrogen bonds to water when free in solution and 
+\begin_inset Formula $0$
+\end_inset
+
+ to the protein in the binding pocket.
+ To a first approximation, what are the contributions of these hydrogen
+ bonds to the 
+\begin_inset Formula $\Delta G$
+\end_inset
+
+ of binding?
+\end_layout
+
+\begin_layout Enumerate
+The pocket contains polar groups that form 
+\begin_inset Formula $2$
+\end_inset
+
+ hydrogen bonds to water in the absence of 
+\begin_inset Formula $C$
+\end_inset
+
+ and 
+\begin_inset Formula $0$
+\end_inset
+
+ hydrogen bonds to 
+\begin_inset Formula $C$
+\end_inset
+
+ when it's bound.
+ To a first approximation, what are the contributions of these hydrogen
+ bonds to the 
+\begin_inset Formula $\Delta G$
+\end_inset
+
+ of ligand binding?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Given the values in your table above, what is the free energy difference
+ for binding 
+\begin_inset Formula $B$
+\end_inset
+
+ versus binding 
+\begin_inset Formula $C$
+\end_inset
+
+ to this protein?
+\end_layout
+
+\begin_layout Enumerate
+If the 
+\begin_inset Formula $K_{D}$
+\end_inset
+
+ for binding 
+\begin_inset Formula $B$
+\end_inset
+
+ is 
+\begin_inset Formula $0.4\ nM$
+\end_inset
+
+, estimate the 
+\begin_inset Formula $K_{D}$
+\end_inset
+
+ for binding 
+\begin_inset Formula $C$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+Why, given your calculation above, is the hydrophobic effect considered
+ the driver for binding, while the polar contacts determine specificity?
+\end_layout
+
+\end_deeper
+\end_body
+\end_document
