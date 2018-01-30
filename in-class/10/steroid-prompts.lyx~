@@ -97,34 +97,19 @@ androgen receptor
 \end_layout
 
 \begin_layout Enumerate
-Based on the structure of these steroids, what sorts of amino acids should
- be present in a pocket that binds these steroids? (You can break up predictions
- by regions 
-\begin_inset Quotes eld
-\end_inset
-
-X
-\begin_inset Quotes erd
+What sorts of amino acids might interact with the the regions labeled 
+\begin_inset Formula $X$
 \end_inset
 
 , 
-\begin_inset Quotes eld
-\end_inset
-
-Y
-\begin_inset Quotes erd
+\begin_inset Formula $Y$
 \end_inset
 
 , and 
-\begin_inset Quotes eld
+\begin_inset Formula $Z$
 \end_inset
 
-Z
-\begin_inset Quotes erd
-\end_inset
-
-.
- 
+ on the steroid below?
 \begin_inset Newline newline
 \end_inset
 
@@ -172,9 +157,9 @@ end{adjustbox}
 \begin_layout Enumerate
 Schematic versions of the ER and AR binding pockets are drawn below.
  Sketch how you think the steroids might dock into these pockets.
- (In your sketch, you do not have to draw details on the steroids that you
- think don't matter.) Predict which pocket is the AR (binds to testosterone)
- versus the ER (binds to estrogen).
+ (In your sketch, you can exclude any details on the steroids that you think
+ don't matter.) Can you guess which pocket is the AR (binds to testosterone)
+ versus the ER (binds to estrogen)?
 \begin_inset Newline newline
 \end_inset
 
@@ -216,11 +201,8 @@ end{adjustbox}
 \end_layout
 
 \begin_layout Enumerate
-What molecular interactions are important for 
-\emph on
-affinity
-\emph default
-? What molecular interactions are most important for 
+What molecular interactions are important for binding? What molecular interactio
+ns are most important for 
 \emph on
 specificity
 \emph default
