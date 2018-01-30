@@ -1,0 +1,309 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{braket}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+unfolded\rightleftarrows helix
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Delta G^{\circ\prime}=\Delta H^{\circ\prime}-T\Delta S^{\circ\prime}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+R=0.0083\ kJ\cdot mol^{-1}\cdot K^{-1}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+T=300\ K
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Delta G^{\circ\prime}=-RTln(K)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Delta S^{\circ\prime}=Rln\left(\frac{N_{helix}}{N_{unfolded}}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+After watching the simulation: is formation of a helix thermodynamically
+ favorable or unfavorable?
+\begin_inset VSpace 1.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Delta H^{\circ\prime}$
+\end_inset
+
+: A 12-alanine helix forms 
+\begin_inset Formula $8$
+\end_inset
+
+ backbone hydrogen bonds.
+ If, on average, a protein hydrogen bonds contributes 
+\begin_inset Formula $-20\ kJ\cdot mol^{-1}$
+\end_inset
+
+ to the enthalpy, what is enthalpy due to hydrogen bonds in the helical
+ state? 
+\begin_inset VSpace 2cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Delta S^{\circ\prime}$
+\end_inset
+
+: A simple (and surprisingly effective) way to count possible conformations
+ for the backbone is to count the number of rotatable bonds, and then assume
+ that each bond can be in three possible states.
+ The 12-alanine peptide has 
+\begin_inset Formula $24$
+\end_inset
+
+ such bonds (the 
+\begin_inset Formula $^{+}H_{3}N-C_{\alpha}$
+\end_inset
+
+ and 
+\begin_inset Formula $C_{\alpha}-COO-$
+\end_inset
+
+ bonds).
+ How many conformations are possible for a 12-alanine peptide? What is the
+ entropy change on folding? 
+\begin_inset VSpace 2cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Delta G^{\circ\prime}$
+\end_inset
+
+: From these calculations, what would you predict 
+\begin_inset Formula $\Delta G_{unf\rightarrow helix}^{\circ\prime}$
+\end_inset
+
+ to be? 
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Experimental 
+\begin_inset Formula $\Delta G^{\circ\prime}$
+\end_inset
+
+
+\series default
+: If you make a solution of peptides made of 12 alanines at 
+\begin_inset Formula $300\ K$
+\end_inset
+
+, 
+\begin_inset Formula $80\%$
+\end_inset
+
+ of the molecules are 
+\begin_inset Formula $\alpha$
+\end_inset
+
+-helices, 
+\begin_inset Formula $20\%$
+\end_inset
+
+ are unfolded.
+ What is 
+\begin_inset Formula $\Delta G_{unf\rightarrow helix}^{\circ\prime}$
+\end_inset
+
+? How does this number compare to your predicted 
+\begin_inset Formula $\Delta G^{\circ\prime}$
+\end_inset
+
+?
+\begin_inset VSpace 3cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Experimental 
+\begin_inset Formula $\Delta H^{\circ\prime}$
+\end_inset
+
+
+\series default
+: The experimental value for 
+\begin_inset Formula $\Delta H^{\circ\prime}$
+\end_inset
+
+ is 
+\begin_inset Formula $-41\ kJ\cdot mol^{-1}$
+\end_inset
+
+.
+ Assuming 8 hydrogen bonds actually form and that the hydrogen bonds are
+ the main contribution to 
+\begin_inset Formula $\Delta H^{\circ\prime}$
+\end_inset
+
+, what is each hydrogen bond 
+\begin_inset Quotes eld
+\end_inset
+
+worth
+\begin_inset Quotes erd
+\end_inset
+
+ in the helix? Why might this be different from the value we used above?
+ 
+\begin_inset VSpace 3cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Now you know 
+\begin_inset Formula $\Delta G^{\circ\prime}$
+\end_inset
+
+ and 
+\begin_inset Formula $\Delta H^{\circ\prime}$
+\end_inset
+
+.
+ What is the contribution of entropy (
+\begin_inset Formula $T\Delta S^{\circ\prime}$
+\end_inset
+
+) to the free energy of helix formation? Does entropy favor or disfavor
+ helix formation? Is it bigger or smaller than your prediction?
+\begin_inset VSpace 3cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+What other source of entropy might be in play? What is the magnitude of
+ this entropy term?
+\end_layout
+
+\end_body
+\end_document

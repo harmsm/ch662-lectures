@@ -1,0 +1,219 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{braket}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+Estrogen binds to the estrogen receptor with 
+\begin_inset Formula $K_{D}^{est}=0.1\ nM\ (1\times10^{-10}\ M)$
+\end_inset
+
+.
+ Testosterone binds with a much lower affinity 
+\begin_inset Formula $K_{D}^{tes}=0.1\ mM\ (1\times10^{-4}\ M)$
+\end_inset
+
+.
+ One difference between estrogen and testosterone in the pocket is hydrogen
+ bonding: estrogen has 
+\begin_inset Formula $0$
+\end_inset
+
+ unfulfilled bonds, while testosterone has 
+\begin_inset Formula $1$
+\end_inset
+
+ unfulfilled bond.
+ If losing that hydrogen bond costs 
+\begin_inset Formula $20\ kJ\cdot mol$
+\end_inset
+
+, is this enough to explain the difference in the affinity? 
+\end_layout
+
+\begin_layout Itemize
+Since 
+\begin_inset Formula $K_{D}$
+\end_inset
+
+ is an equilibrium constant, we can convert it to 
+\begin_inset Formula $\Delta G^{\circ\prime}$
+\end_inset
+
+ by 
+\begin_inset Formula $\Delta G^{\circ\prime}=-RTln(K_{D})$
+\end_inset
+
+.
+ So:
+\begin_inset Formula 
+\[
+\Delta G_{estrogen}^{\circ\prime}=-RTln(K_{D}^{est})=-0.0083\times300\times ln(10^{-10})=57.3\ kJ\cdot mol^{-1}.
+\]
+
+\end_inset
+
+This is the free energy to dissociate the estrogen from the protein at 
+\begin_inset Formula $1\ M$
+\end_inset
+
+ estrogen, 
+\begin_inset Formula $1M$
+\end_inset
+
+ protein, 
+\begin_inset Formula $pH\ 7.0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+The loss of the hydrogen bond makes binding 
+\begin_inset Formula $20\ kJ\cdot mol^{-1}$
+\end_inset
+
+ worse.
+ This means our predicted dissociation free energy for testosterone is:
+\begin_inset Formula 
+\[
+\Delta G_{tes,predicted}^{\circ\prime}=\Delta G_{estrogen}^{\circ\prime}-20\ kJ\cdot mol^{-1}=57.3-20=37.3\ kJ\cdot mol^{-1}.
+\]
+
+\end_inset
+
+(It is 
+\begin_inset Formula $20\ kJ\cdot mol^{-1}$
+\end_inset
+
+ easier to pull apart testosterone:receptor than estrogen:receptor).
+ 
+\end_layout
+
+\begin_layout Itemize
+Now, convert 
+\begin_inset Formula $\Delta G$
+\end_inset
+
+ back to 
+\begin_inset Formula $K_{D}$
+\end_inset
+
+.
+ 
+\begin_inset Formula 
+\[
+\Delta G^{\circ\prime}=-RTln(K_{D})
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+-\frac{\Delta G^{\circ\prime}}{RT}=ln(K_{D})
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+e^{-\frac{\Delta G^{\circ\prime}}{RT}}=K_{D}=e^{-37.3/(0.0083\times300)}=3\times10^{-7}\ M
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+This 
+\begin_inset Formula $K_{D}$
+\end_inset
+
+ is still much lower (better binding) than the observed 
+\begin_inset Formula $K_{D}^{tes}$
+\end_inset
+
+ of 
+\begin_inset Formula $1\times10^{-4}\ M$
+\end_inset
+
+, so some other interaction(s) must be involved in specificity.
+ 
+\end_layout
+
+\end_body
+\end_document
